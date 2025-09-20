@@ -3,6 +3,10 @@ import type { Metadata } from "next";
 // import { Geist, Geist_Mono } from "next/font/google";
 import Sidebar from "@/components/ui/sidebar";
 import "./globals.css";
+import HeaderSearchInput from "@/components/ui/headerSearch";
+import HeaderIcons from "@/components/ui/headerIcons";
+import HeaderTexts from "@/components/ui/headerTexts";
+import HeaderProfile from "@/components/ui/headerProfile";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -28,7 +32,12 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning={true}>
       <body className={`grid grid-cols-[250px_auto] grid-rows-[auto_full]`}>
         <Sidebar />
-        <header className="w-full h-[90px] bg-white row-start-1 row-end-2 col-start-2 col-end-3 border-1 border-[#CDD6E9] "></header>
+        <header className="w-full h-[90px] bg-white row-start-1 row-end-2 col-start-2 col-end-3 border-1 border-[#CDD6E9] px-[50px] py-[22px] flex outline-0 gap-[30px] ">
+          <HeaderSearchInput />
+          <HeaderIcons />
+          <HeaderTexts />
+          <HeaderProfile />
+        </header>
         <main className="row-start-2 row-end-3 col-start-2 col-end-3 mt-10 ">
           {children}
         </main>
