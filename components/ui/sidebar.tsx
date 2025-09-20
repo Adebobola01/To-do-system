@@ -1,6 +1,6 @@
 import MenuItem from "./menu-item";
-import { Switch } from "@chakra-ui/react";
-import { Provider } from "@/components/ui/provider";
+// import { Switch } from "@chakra-ui/react";
+// import { Provider } from "@/components/ui/provider";
 import flag from "../../public/england-icon.svg";
 import SwitchComponent from "./switch";
 
