@@ -1,6 +1,6 @@
 const HeaderSearchInput = () => {
   return (
-    <div className="bg-[#F7F7F7] p-[14px] border-1 border-[#CDD6E9] rounded-[10px]  flex items-center w-[220px]  ">
+    <div className="bg-[#F7F7F7] py-[.64rem] px-[.782rem] border-1 border-[#CDD6E9] rounded-[10px]  flex items-center w-[12.3rem]  ">
       <img src="/search-normal.svg" alt="search icon" />
       <span className="ml-[11px] border-[#BBBBBB] border-r-1 pr-1 leading-[100%] ">
         M91

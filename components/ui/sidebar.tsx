@@ -6,7 +6,7 @@ import SwitchComponent from "./switch";
 
 export default function Sidebar() {
   return (
-    <div className="w-62.5 h-full bg-[#fff] row-start-1 row-end-3 col-start-1 col-end-2  flex flex-col px-[30px] pb-[30px] pt-[12px] border-1 border-[#CDD6E9] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]  ">
+    <div className="w-[14rem] h-full bg-[#fff] row-start-1 row-end-3 col-start-1 col-end-2  flex flex-col px-[30px] pb-[30px] pt-[12px] border-1 border-[#CDD6E9] drop-shadow-[0_4px_4px_rgba(0,0,0,0.25)]  ">
       <div className="flex items-center justify-between mb-15 ">
         <img src={"/logo.svg"} alt="logo" />
         <img
